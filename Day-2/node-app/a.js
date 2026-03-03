@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function greet(firstName) {
-    console.log("Hello", +firstName);
+function runafter1s(fn) {
+    setTimeout(fn, 1000);
 }
-greet("Harsh");
+runafter1s(function () {
+    console.log("hello");
+});
 //# sourceMappingURL=a.js.map
